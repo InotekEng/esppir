@@ -25,8 +25,6 @@ An ESP8266-based module with integrated PIR motion sensor and WiFi capabilities.
 | `VCC`       | 5V         |
 | `GND`       | Ground     |
 
-![Wiring Diagram](hardware/wiring_diagram.png)
-
 ### 2. Programming Setup
 
 #### 2.1 Using USB-to-Serial Programmer (FTDI/CP2102)
@@ -40,6 +38,7 @@ For initial programming or recovery, connect as follows:
 | **RX**      | TX             |
 | **IO0**     | GND (for flash mode) |
 | **RST**     | Connect to button for reset |
+
 **Programming Steps:**
 1. Connect all wires as shown above
 2. Hold down the **RST** button
